@@ -41,6 +41,25 @@
                     width: 100%;
                 }
             }
+             #colera{
+                /* border: 2px solid rebeccapurple; */
+                display: flex;
+                }
+            #colera>div{
+                /* border: 2px solid rebeccapurple; */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            } 
+            /* #colera>div{
+                display: flex;
+                flex-direction: column;
+                width: 40%;
+               padding: 2em;
+            } */ 
+             #colera>div>*{
+                width: 90%;
+            }  
         </style>
 
     <!-- <link rel='stylesheet' id='elementor-frontend-legacy-css' href='../wp-content/plugins/elementor/assets/css/frontend-legacy.min1aae.css?ver=3.5.3' type='text/css' media='all' />
@@ -102,7 +121,7 @@
 </div>
 
 <div id="wrapper">
-
+    <img src="tr.jpeg" style="width: 200px;height: 200px;position: absolute; top: -20px;left: 10px;"/>
     <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
         <div id="header" class="nav-collapse">
             <div class="row clearfix">
@@ -110,13 +129,13 @@
 
                     <!--Logo-->
                     <div id="logo">
-
+                        
                         <!--Logo that is shown on the banner-->
-                        <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+                        <!-- <img src="tr.jpeg" id="banner-logo" alt="Landing Page" style="width: 500px;height: 500px;"/> -->
                         <!--End of Banner Logo-->
 
                         <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                        <!-- <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/> -->
                         <!--End of Navigation Logo-->
 
                     </div>
@@ -166,20 +185,23 @@
                                 <a href="#about">About</a>
                             </li>
                             <li>
-                                <a href="#gallery">Gallery</a>
-                            </li>
-                            <li>
                                 <a href="#services">Services</a>
                             </li>
-                            <li>
+                            <!-- <li>
+                                <a href="#gallery">Gallery</a>
+                            </li> -->
+                            <!-- <li>
+                                <a href="#services">Services</a>
+                            </li> -->
+                            <!-- <li>
                                 <a href="#testimonials">Testimonials</a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="#clients">Clients</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#pricing">Pricing</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </nav>
                     <!--End of Main Navigation-->
@@ -221,9 +243,8 @@
                 <div class="col-3">
                     <div class="section-heading">
                         <h3>SUCCESS</h3>
-                        <h2 class="section-title">How We Help You To Sell Your Product</h2>
-                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+                        <h2 class="section-title">What we offer</h2>
+                        <p class="section-subtitle">TeachRealm Pakistan empowers businesses with cutting-edge IT solutions, offering expertise in web development, AI services, cybersecurity, social media marketing, SEO, and design. Elevate your digital presence with us.</p>
                     </div>
 
                 </div>
@@ -238,9 +259,8 @@
                         </div>
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
-                            <h4>HTML5 &amp; CSS3</h4>
-                            <p>Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro
-                                neglegentur iudico</p>
+                            <h4>Web development  </h4>
+                            <p>Transform your online presence with TeachRealm Pakistan's top-tier web development. We create responsive, user-friendly websites for a seamless and engaging digital experience tailored to your brand</p>
                         </div>
                     </div>
                     <!--End of Icon Block-->
@@ -253,9 +273,8 @@
                         </div>
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
-                            <h4>Easy to Use</h4>
-                            <p>Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit
-                                detracto mediocrem disputationi</p>
+                            <h4>AI services</h4>
+                            <p>Experience innovation with TeachRealm Pakistan's AI services. We deliver cutting-edge solutions, harnessing artificial intelligence to enhance efficiency, decision-making, and business intelligence for unparalleled results.</p>
                         </div>
                     </div>
                     <!--End of Icon Block-->
@@ -268,9 +287,8 @@
                         </div>
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
-                            <h4>Fully Responsive</h4>
-                            <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
-                                nemore vivendum</p>
+                            <h4>Cyber security</h4>
+                            <p>Secure your digital future with TeachRealm Pakistan's cybersecurity prowess. We safeguard businesses with robust solutions, ensuring data integrity, threat detection, and a resilient defense against evolving cyber risks</p>
                         </div>
                     </div>
                     <!--End of Icon Block-->
@@ -283,9 +301,8 @@
                         </div>
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
-                            <h4>Parallax Effect</h4>
-                            <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
-                                nemore vivendum</p>
+                            <h4>Seo and Marketing</h4>
+                            <p>Amplify your online visibility with TeachRealm Pakistan's SEO expertise and dynamic social media marketing. We optimize digital strategies for heightened reach, engagement, and business growth.</p>
                         </div>
                     </div>
                     <!--End of Icon Block-->
@@ -300,7 +317,7 @@
 
 
         <!--Gallery-->
-        <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
+        <!-- <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
                  data-featherlight-filter="a">
 
                 <a href="images/gallery-images/gallery-image-1.jpg" data-featherlight="image" class="col-3 wow fadeIn"
@@ -316,7 +333,7 @@
                 <a href="images/gallery-images/gallery-image-6.jpg" data-featherlight="image" class="col-3 wow fadeIn"
                    data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/></a>
 
-        </aside>
+        </aside> -->
         <!--End of Gallery-->
 
 
@@ -371,7 +388,7 @@
             </div>
 
                 <!-- <img style="width: 70%;display:block;margin: auto;" src="services.png" class="service-img" /> -->
-                <h2 class="service-title" style="color: #2A284F; text-align: center;font-size: 2.75rem;font-weight: 700;">SERVICES</h2>
+                <h2 class="service-title" style="color: #2A284F; text-align: center;font-size: 2.75rem;font-weight: 700;" id="services">SERVICES</h2>
             <section class="elementor-section elementor-inner-section elementor-element elementor-element-790c492 sassico_iconbox_advanced_hover_effect elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="790c492" data-element_type="section">
 
 
@@ -493,7 +510,7 @@
 
 
                     <div class="elementor-container elementor-column-gap-default">
-                    <div class="elementor-row" style="display: flex;justify-content: center;padding-block: 50px;line-height: 1.7;">
+                    <div class="elementor-row" style="display: flex;justify-content: center;padding-block: 50px;padding-inline: 1em;line-height: 1.7;margin-bottom: 2em;">
                     <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b1c0aeb" data-id="b1c0aeb" data-element_type="column" style="max-width: 600px;">
                     <div class="elementor-column-wrap elementor-element-populated">
                     <div class="elementor-widget-wrap">
@@ -510,7 +527,7 @@
                     <a>AI Ecom Generator</a>
                     </h3>
                     <div class="elementskit-box-style-content">
-                    Safeguarding your accounts through the implementation of multiple techniques and the utilization of custom tools to identify potential threats. </div>
+                        Effortlessly scale your online presence! Our AI crafts bespoke e-commerce sites in bulk, ensuring stunning designs and seamless functionality tailored to diverse niches and prompts. </div>
                     </div>
                     <div class="elementskit-box-footer">
                     <div class="box-footer">
@@ -544,7 +561,7 @@
                     <a>AI SEO Provider </a>
                     </h3>
                     <div class="elementskit-box-style-content">
-                    Dynamic web development, tailored to your needs. From chatbots to sleek designs, we keep your web presence up-to-date and engaging.</div>
+                        Boost SEO effortlessly: Our AI generates high-quality backlinks in bulk, enhancing your online presence and authority with ease</div>
                     </div>
                     <div class="elementskit-box-footer">
                     <div class="box-footer">
@@ -578,7 +595,7 @@
                     <a>AI Course Provider </a>
                     </h3>
                     <div class="elementskit-box-style-content">
-                    Our dedicated team employs cutting-edge strategies and custom tools to safeguard your social media presence, utilizing multiple techniques to identify and mitigate potential threats. </div>
+                        Empower learning with our AI service: Tailored education solutions for personalized, efficient, and engaging knowledge delivery </div>
                     </div>
                     <div class="elementskit-box-footer">
                     <div class="box-footer">
@@ -612,43 +629,43 @@
         <!--End of Content Section-->
 
         <!--Testimonials-->
-        <aside id="testimonials" class="scrollto text-center" data-enllax-ratio=".2">
+        <!-- <aside id="testimonials" class="scrollto text-center" data-enllax-ratio=".2">
 
             <div class="row clearfix">
 
                 <div class="section-heading">
                     <h3>FEEDBACK</h3>
                     <h2 class="section-title">What our customers are saying</h2>
-                </div>
+                </div> -->
 
                 <!--User Testimonial-->
-                <blockquote class="col-3 testimonial classic">
+                <!-- <blockquote class="col-3 testimonial classic">
                     <img src="images/user-images/user-1.jpg" alt="User"/>
                     <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
                         et dolore magna aliqua</q>
                     <footer>John Doe - Happy Customer</footer>
-                </blockquote>
+                </blockquote> -->
                 <!-- End of Testimonial-->
 
                 <!--User Testimonial-->
-                <blockquote class="col-3 testimonial classic">
+                <!-- <blockquote class="col-3 testimonial classic">
                     <img src="images/user-images/user-2.jpg" alt="User"/>
                     <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
                         et dolore magna aliqua</q>
                     <footer>Roslyn Doe - Happy Customer</footer>
-                </blockquote>
+                </blockquote> -->
                 <!-- End of Testimonial-->
 
                 <!--User Testimonial-->
-                <blockquote class="col-3 testimonial classic">
+                <!-- <blockquote class="col-3 testimonial classic">
                     <img src="images/user-images/user-3.jpg" alt="User"/>
                     <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
                         et dolore magna aliqua</q>
                     <footer>Thomas Doe - Happy Customer</footer>
-                </blockquote>
+                </blockquote> -->
                 <!-- End of Testimonial-->
 
             </div>
@@ -658,38 +675,40 @@
 
         <!--Clients-->
         <section id="clients" class="scrollto clearfix">
-            <div class="row clearfix">
+            <div class="row clearfix" style="display: flex;justify-content: space-between;">
 
-                <div class="col-3">
+                <div class="col-3" style="width: 50%;max-width: 500px;">
 
                     <div class="section-heading">
                         <h3>TRUST</h3>
                         <h2 class="section-title">Companies who use our services</h2>
-                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+                        <p class="section-subtitle">Digital leaders trust us! BakeryHillDental, Zuhd, TechSage, and four major companies rely on our services for unparalleled excellence in software solutions.</p>
                     </div>
 
                 </div>
 
-                <div class="col-2-3">
+                <div class="col-2-3 " id="colera" style="width: 40%;">
 
+                   <div class="colera-1">
                     <a href="#" class="col-3">
                         <img src="logo-dsm.png" alt="Company"/>
-                        <div class="client-overlay"><span>Tree</span></div>
+                        <!-- <div class="client-overlay"><span>Tree</span></div> -->
                     </a>
                     <a href="#" class="col-3">
                         <img src="logo-dento-1.png" alt="Company"/>
-                        <div class="client-overlay"><span>Fingerprint</span></div>
+                        <!-- <div class="client-overlay"><span>Fingerprint</span></div> -->
+                    </a>
+                   </div>
+                   <div class="colera-2">
+                    <a href="#" class="col-3">
+                        <img src="zuhd-logo.png" alt="Company" style="width: 40%;"/>
+                        <!-- <div class="client-overlay"><span>The Man</span></div> -->
                     </a>
                     <a href="#" class="col-3">
-                        <img src="zuhd-logo.png" alt="Company"/>
-                        <div class="client-overlay"><span>The Man</span></div>
+                        <img src="techsaga-logo.png" alt="Company" style="width: 70%;"/>
+                        <!-- <div class="client-overlay"><span>Mustache</span></div> -->
                     </a>
-                    <a href="#" class="col-3">
-                        <img src="techsaga-logo.png" alt="Company"/>
-                        <div class="client-overlay"><span>Mustache</span></div>
-                    </a>
+                   </div>
                     <!-- <a href="#" class="col-3">
                         <img src="images/company-images/company-logo5.png" alt="Company"/>
                         <div class="client-overlay"><span>Goat</span></div>
@@ -719,7 +738,7 @@
         <!--End of Clients-->
 
         <!--Pricing Tables-->
-        <section id="pricing" class="secondary-color text-center scrollto clearfix ">
+        <!-- <section id="pricing" class="secondary-color text-center scrollto clearfix ">
             <div class="row clearfix">
 
                 <div class="section-heading">
@@ -727,8 +746,8 @@
                     <h2 class="section-title">We have the right package for you</h2>
                 </div>
 
-                <!--Pricing Block-->
-                <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
+                Pricing Block-->
+                <!-- <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="pricing-block-content">
                         <h3>Personal</h3>
                         <p class="pricing-sub">The standard version</p>
@@ -745,11 +764,11 @@
                         </ul>
                         <a href="#" class="button">BUY TODAY</a>
                     </div>
-                </div>
+                </div> -->
                 <!--End Pricing Block-->
 
                 <!--Pricing Block-->
-                <div class="pricing-block featured col-3 wow fadeInUp" data-wow-delay="0.6s">
+                <!-- <div class="pricing-block featured col-3 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="pricing-block-content">
                         <h3>Student</h3>
                         <p class="pricing-sub">Most popular choice</p>
@@ -766,11 +785,11 @@
                         </ul>
                         <a href="#" class="button">BUY TODAY</a>
                     </div>
-                </div>
+                </div> -->
                 <!--End Pricing Block-->
 
                 <!--Pricing Block-->
-                <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.8s">
+                <!-- <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="pricing-block-content">
                         <h3>Business</h3>
                         <p class="pricing-sub">For the whole team</p>
@@ -787,7 +806,7 @@
                         </ul>
                         <a href="#" class="button">BUY TODAY</a>
                     </div>
-                </div>
+                </div> --> 
                 <!--End Pricing Block-->
 
             </div>
@@ -799,13 +818,13 @@
 
 
     <!--Footer-->
-    <footer id="landing-footer" class="clearfix">
-        <div class="row clearfix">
+    <!-- <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix"> -->
 
-            <p id="copyright" class="col-2">Made with love by <a href="https://www.shapingrain.com">ShapingRain</a></p>
+            <!-- <p id="copyright" class="col-2">Made with love by <a href="https://www.shapingrain.com">ShapingRain</a></p> -->
 
             <!--Social Icons in Footer-->
-            <ul class="col-2 social-icons">
+            <!-- <ul class="col-2 social-icons">
                 <li>
                     <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
                         <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
@@ -831,133 +850,25 @@
                         <i class="fa fa-behance fa-1x"></i><span>Behance</span>
                     </a>
                 </li>
-            </ul>
+            </ul> -->
             <!--End of Social Icons in Footer-->
         </div>
     </footer>
     <!--End of Footer-->
-
-
-    <section class="elementor-section elementor-inner-section elementor-element elementor-element-790c492 sassico_iconbox_advanced_hover_effect elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="790c492" data-element_type="section">
-
-
-   
-
-
-        <div class="elementor-container elementor-column-gap-default">
-        <div class="elementor-row" style="display: flex;justify-content: center;padding-block: 50px;line-height: 1.7;">
-        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b1c0aeb" data-id="b1c0aeb" data-element_type="column" style="max-width: 600px;">
-        <div class="elementor-column-wrap elementor-element-populated">
-        <div class="elementor-widget-wrap">
-        <div class="elementor-element elementor-element-af7d363 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="af7d363" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
-        <div class="elementor-widget-container">
-        <div class="ekit-wid-con">
-        <div class="elementskit-info-image-box ekit-image-box text-center hover_from_right hover-border-bottom">
-        <div class="elementskit-box-header image-box-img-center">
-        <img width="120" height="94" src="../wp-content/uploads/2019/11/sass-4-iconbox-icon-1.png" class="attachment-full size-full" alt="" />
-        </div>
-        <div class="elementskit-box-body ekit-image-box-body">
-        <div class="elementskit-box-content ekit-image-box-body-inner">
-        <h3 class="elementskit-info-box-title">
-        <a>Cyber Security </a>
+    <footer class="contact" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;width: 90%;margin-inline: auto;border-radius: 10px;padding-block: 2em;margin-block:2em;text-align:  center;">
+        <h3 class="contact-title">
+            Contact us
         </h3>
-        <div class="elementskit-box-style-content">
-        Safeguarding your accounts through the implementation of multiple techniques and the utilization of custom tools to identify potential threats. </div>
-        </div>
-        <div class="elementskit-box-footer">
-        <div class="box-footer">
-        <div class="btn-wraper">
-        <a href="https://xpeedstudio.com/" rel="nofollow" class="elementskit-btn whitespace--normal">
-        <i aria-hidden="true" class="icon icon-plus-circle"></i>
-        View More </a>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div> </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d849760" data-id="d849760" data-element_type="column" style="max-width: 600px;">
-        <div class="elementor-column-wrap elementor-element-populated">
-        <div class="elementor-widget-wrap">
-        <div class="elementor-element elementor-element-3fef6c6 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="3fef6c6" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
-        <div class="elementor-widget-container">
-        <div class="ekit-wid-con">
-        <div class="elementskit-info-image-box ekit-image-box text-center hover_from_right hover-border-bottom">
-        <div class="elementskit-box-header image-box-img-center">
-        <img width="153" height="94" src="../wp-content/uploads/2019/11/sass-4-iconbox-icon-2.png" class="attachment-full size-full" alt="" />
-        </div>
-        <div class="elementskit-box-body ekit-image-box-body">
-        <div class="elementskit-box-content ekit-image-box-body-inner">
-        <h3 class="elementskit-info-box-title">
-        <a>Web development  </a>
-        </h3>
-        <div class="elementskit-box-style-content">
-        Dynamic web development, tailored to your needs. From chatbots to sleek designs, we keep your web presence up-to-date and engaging.</div>
-        </div>
-        <div class="elementskit-box-footer">
-        <div class="box-footer">
-        <div class="btn-wraper">
-        <a href="https://xpeedstudio.com/" rel="nofollow" class="elementskit-btn whitespace--normal">
-        <i aria-hidden="true" class="icon icon-plus-circle"></i>
-        View More </a>
-        </div>
-        </div>
-        </div>
-        </div>
-         </div>
-        </div> </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6d31f34" data-id="6d31f34" data-element_type="column" style="max-width: 600px;">
-        <div class="elementor-column-wrap elementor-element-populated">
-        <div class="elementor-widget-wrap">
-        <div class="elementor-element elementor-element-d021353 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="d021353" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
-        <div class="elementor-widget-container">
-        <div class="ekit-wid-con">
-        <div class="elementskit-info-image-box ekit-image-box text-center hover_from_right hover-border-bottom">
-        <div class="elementskit-box-header image-box-img-center">
-        <img width="158" height="94" src="../wp-content/uploads/2019/11/sass-4-iconbox-icon-3.png" class="attachment-full size-full" alt="" />
-        </div>
-        <div class="elementskit-box-body ekit-image-box-body">
-        <div class="elementskit-box-content ekit-image-box-body-inner">
-        <h3 class="elementskit-info-box-title">
-        <a>Social Media Marketing </a>
-        </h3>
-        <div class="elementskit-box-style-content">
-        Our dedicated team employs cutting-edge strategies and custom tools to safeguard your social media presence, utilizing multiple techniques to identify and mitigate potential threats. </div>
-        </div>
-        <div class="elementskit-box-footer">
-        <div class="box-footer">
-        <div class="btn-wraper">
-        <a href="https://xpeedstudio.com/" rel="nofollow" class="elementskit-btn whitespace--normal">
-        <i aria-hidden="true" class="icon icon-plus-circle"></i>
-        View More </a>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div> </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </section>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </section>
+       <div style="display: flex; gap: 2em; justify-content: center;">
+        <p style="font-weight: 600; color: #2A284F;letter-spacing: .8px;">info@techrealm.online</p>
+        <p style="font-weight: 600; color: #2A284F;letter-spacing: .8px;">joshua@Techrealm.pk</p>
+        <p style="font-weight: 600; color: #2A284F;letter-spacing: .8px;">+92 346 1115757</p>
+       </div>
+    </footer>
 
+    
+
+       
 
 
 </div>
